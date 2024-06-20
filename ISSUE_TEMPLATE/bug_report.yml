@@ -1,0 +1,39 @@
+name: バグ報告(Bug report)
+description: 不具合を報告する
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: 説明
+      description: バグの簡潔な説明
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 再現方法
+      description: 再現方法を順番になるべく詳しく記載してください。
+      placeholder: |
+        1. '....' に移動する
+        2. '....'をクリックする
+        3. '....'までスクロールする
+        4. エラー発生
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 期待される動作
+      description: 操作によって期待される動作を簡潔に記述してください。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 動作環境
+      description: 使用したバージョンや動作環境をできるだけ詳しく記載してください。
+      placeholder: |
+        例: 
+        Windows 11 23H2
+        Python 3.10
+        numpy 1.26.4
+    validations:
+      required: true
