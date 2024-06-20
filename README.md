@@ -13,7 +13,7 @@
 - `CONTRIBUTING.md`
     - 貢献の方法を記載する
     - 参考: [リポジトリコントリビューターのためのガイドラインを定める - GitHub Docs](https://docs.github.com/ja/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors)
-- `ISSUE_TEMPLATE/<fileName>.yml`
+- `.github/ISSUE_TEMPLATE/<fileName>.yml`
     - 複数作成できるIssueテンプレート
     - 参考: [Issueのテンプレート - GitHub Docs](https://docs.github.com/ja/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates#issue-templates)
 - `pull_request_template.md`
